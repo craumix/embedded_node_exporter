@@ -7,6 +7,10 @@ The goal of this project is to make a version of [node_exporter](https://github.
 The following example creates and registers a new NodeCollector with some basic collectors and **no** logging for the collectors.
 
 ```golang
+import (
+    exporter "github.com/craumix/embedded_node_exporter"
+)
+
 nc, err := exporter.NewNodeCollector(
     nil,
     "cpu",
