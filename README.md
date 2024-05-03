@@ -27,7 +27,7 @@ if err != nil {
 }
 ```
 
-The collectors use <github.com/go-kit/log> for logging so you can either use that or write a translation to your own logger. A translator for logrus is already included and may be used as an example for further use cases.
+The collectors use <https://github.com/go-kit/log> for logging so you can either use that or write a translation to your own logger. A translator for logrus is already included and may be used as an example for further use cases.
 
 ```golang
 level := logrus.WarnLevel
